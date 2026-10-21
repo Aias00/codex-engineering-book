@@ -1,0 +1,51 @@
+/* Fonts stay with the reader's system; the book has no external resources. */
+html { -webkit-text-size-adjust: 100%; }
+body {
+  font-family: "Noto Serif CJK SC", "Source Han Serif SC", "Songti SC", serif;
+  line-height: 1.85;
+  margin: 5%;
+  overflow-wrap: break-word;
+}
+h1, h2, h3, h4 {
+  font-family: "Noto Sans CJK SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+  line-height: 1.45;
+  break-after: avoid;
+  page-break-after: avoid;
+}
+h1 { font-size: 1.75em; margin: 1.4em 0 1.2em; }
+h2 { font-size: 1.25em; margin: 1.65em 0 .65em; }
+h3 { font-size: 1.08em; }
+p { margin: .7em 0; orphans: 2; widows: 2; }
+a { color: #1b5a78; text-decoration: underline; overflow-wrap: anywhere; }
+code, pre { font-family: "SFMono-Regular", Consolas, "Noto Sans Mono CJK SC", monospace; }
+code { font-size: .88em; overflow-wrap: anywhere; }
+pre {
+  padding: .9em;
+  border: 1px solid #b6c4cb;
+  border-radius: .2em;
+  line-height: 1.55;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  tab-size: 4;
+}
+pre code { font-size: .8em; white-space: pre-wrap; }
+blockquote { margin: 1em 0; padding-left: 1em; border-left: 3px solid #6a949b; }
+table { width: 100%; border-collapse: collapse; font-size: .88em; margin: 1em 0; }
+th, td { padding: .45em; border: 1px solid #9baeb8; text-align: left; vertical-align: top; }
+thead { display: table-header-group; }
+tr { break-inside: avoid; page-break-inside: avoid; }
+ul, ol { padding-left: 1.6em; }
+li { margin: .35em 0; }
+figure { margin: 1.2em 0; padding: 0; break-inside: avoid; }
+img, svg { max-width: 100%; height: auto; }
+figcaption { font-size: .85em; text-align: center; margin-top: .5em; }
+nav ol { padding-left: 1.3em; }
+.title, .subtitle, .author, .date { text-align: center; }
+.subtitle { font-size: 1.15em; }
+@media screen and (min-width: 800px) {
+  body { max-width: 44em; margin: 3em auto; padding: 0 2em; }
+}
+@media (prefers-color-scheme: dark) {
+  a { color: #87cbe6; }
+  pre, th, td { border-color: #84959d; }
+}

@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "epub_sha256": "e3f248d1e4d2521641ac67540d1c5aab238925aba2235c255d6bff416a2eb05e",
+  "source_commit": "57d4fac64adbcaed0523ca6bf8d58c4ef6875157",
+  "source_references_checked": 84,
+  "unique_source_files": 65,
+  "chapter_level_toc_entries": 17,
+  "source_verification": "git_snapshot_and_manifest",
+  "source_blobs_read": 65,
+  "source_manifest_sha256": "e415c2daca0ec2b61b21ca69ee6e97e19a3a483863a47aa2e784294ed665af25",
+  "images": 5,
+  "spine_items": 20,
+  "html_internal_anchors": 128,
+  "html_embedded_images": 5,
+  "checks": [
+    "zip_crc",
+    "mimetype",
+    "xml_parse",
+    "manifest_coverage",
+    "css",
+    "cover",
+    "navigation",
+    "internal_links",
+    "image_alt",
+    "chapter_presence",
+    "pinned_source_lines_from_manifest",
+    "html_internal_anchors",
+    "html_embedded_images",
+    "artifact_hashes",
+    "source_blob_lines_and_sha256"
+  ],
+  "scope": "已读取上游固定 Git 快照，文件行数与 SHA-256 均与统计清单一致。 EPUB/HTML 本地结构已检查；完整 EPUB 标准校验由 EPUBCheck 单独执行。"
+}

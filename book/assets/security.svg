@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="850" viewBox="0 0 1000 850" role="img" aria-labelledby="title desc">
+<title id="title">允许、审核与隔离各有职责</title><desc id="desc">执行路径可能包含缓存、拒绝、重试与外部隔离分支</desc>
+<rect width="1000" height="850" rx="20" fill="#f4f7f8"/>
+<g font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#163745"><text x="50" y="62" font-size="31" font-weight="bold">允许、审核与隔离各有职责</text><text x="50" y="103" font-size="20">执行路径可能包含缓存、拒绝、重试与外部隔离分支</text></g>
+<defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8" fill="none" stroke="#357a87" stroke-width="1.3"/></marker></defs>
+<path d="M350.0,245.0 L260.0,320.0" stroke="#357a87" stroke-width="3"/><polygon points="264.61,316.16 273.19,299.90 282.15,310.65" fill="#357a87"/>
+<path d="M650.0,245.0 L740.0,320.0" stroke="#357a87" stroke-width="3"/><polygon points="735.39,316.16 717.85,310.65 726.81,299.90" fill="#357a87"/>
+<path d="M260.0,440.0 L350.0,510.0" stroke="#357a87" stroke-width="3"/><polygon points="345.26,506.32 327.55,501.40 336.14,490.35" fill="#357a87"/>
+<path d="M740.0,440.0 L650.0,510.0" stroke="#357a87" stroke-width="3"/><polygon points="654.74,506.32 663.86,490.35 672.45,501.40" fill="#357a87"/>
+<path d="M500.0,610.0 L500.0,680.0" stroke="#357a87" stroke-width="3"/><polygon points="500.00,674.00 493.00,657.00 507.00,657.00" fill="#357a87"/>
+<rect x="170" y="145" width="660" height="100" rx="14" fill="white" stroke="#8ca7b0" stroke-width="2"/>
+<g font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" text-anchor="middle" fill="#163745"><text x="500.0" y="185" font-size="25" font-weight="bold">拟执行动作 + 路径 + 环境</text><text x="500.0" y="220" font-size="19">把命令文字变成具体操作请求</text></g>
+<rect x="50" y="320" width="430" height="120" rx="14" fill="white" stroke="#8ca7b0" stroke-width="2"/>
+<g font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" text-anchor="middle" fill="#163745"><text x="265.0" y="360" font-size="25" font-weight="bold">权限与执行策略</text><text x="265.0" y="395" font-size="19">资源范围 / 命令规则 / 约束</text></g>
+<rect x="520" y="320" width="430" height="120" rx="14" fill="white" stroke="#8ca7b0" stroke-width="2"/>
+<g font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" text-anchor="middle" fill="#163745"><text x="735.0" y="360" font-size="25" font-weight="bold">审批判断</text><text x="735.0" y="395" font-size="19">是否进入审核以及审核结果</text></g>
+<rect x="170" y="510" width="660" height="100" rx="14" fill="white" stroke="#8ca7b0" stroke-width="2"/>
+<g font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" text-anchor="middle" fill="#163745"><text x="500.0" y="550" font-size="25" font-weight="bold">平台沙箱与执行后端</text><text x="500.0" y="585" font-size="19">落实文件系统、网络等边界</text></g>
+<rect x="170" y="680" width="660" height="100" rx="14" fill="white" stroke="#8ca7b0" stroke-width="2"/>
+<g font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" text-anchor="middle" fill="#163745"><text x="500.0" y="720" font-size="25" font-weight="bold">真实进程结果</text><text x="500.0" y="755" font-size="19">输出、退出状态、错误或会话句柄</text></g>
+<text x="50" y="825" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#526a75" font-size="17">基于提交 57d4fac · 教学简图，省略分支与兼容细节</text></svg>

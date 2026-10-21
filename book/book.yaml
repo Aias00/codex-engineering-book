@@ -1,0 +1,10 @@
+title: 从零读懂 Codex 工程
+subtitle: 给初学者的目录地图、源码导读与动手练习
+author: Codex 辅助编写
+lang: zh-CN
+date: 2026-10-20
+rights: 独立工程导读；短小源码摘录的许可与版权见原仓库 LICENSE、NOTICE。
+description: 基于提交 57d4fac 的中文初学者读本，解释终端基础、Rust 主工程、app-server、代理循环、工具执行、安全与 SDK，并提供可回滚的动手练习及答案。
+identifier: urn:uuid:8eb8639b-f4c5-5656-a18d-3891010a352b
+toc-title: 目录
+cover-image: assets/cover.svg

@@ -1,0 +1,268 @@
+{
+  "schema_version": 1,
+  "repository": "https://github.com/openai/codex",
+  "commit": "57d4fac64adbcaed0523ca6bf8d58c4ef6875157",
+  "description": "固定上游 Git 快照中文章引用文件的行数与 SHA-256；仅含统计，不含上游源码。离线核验不能代替重新读取 Git 快照。",
+  "files": {
+    "README.md": {
+      "lines": 81,
+      "sha256": "ba4e1f69ff48386e72a9c5e1edaf76aad64a475c2d51af79ccba6d1128261ba7"
+    },
+    "codex-cli/bin/codex.js": {
+      "lines": 295,
+      "sha256": "61b0194f3bb6534439c8d26a3ed57d0805f84b884588b761795323eeb92fcf70"
+    },
+    "codex-rs/Cargo.toml": {
+      "lines": 668,
+      "sha256": "4cefe1cb5a86c251cf02cde40cd2911024216372fc766739a6513be1527677d7"
+    },
+    "codex-rs/ansi-escape/src/ansi_escape_tests.rs": {
+      "lines": 76,
+      "sha256": "dcc828c9c4e7ef8f45231ccc0cf0f2a7ff7e05992310a5e1320349cb5fb599c9"
+    },
+    "codex-rs/ansi-escape/src/lib.rs": {
+      "lines": 66,
+      "sha256": "b3fc826eba61a052904d293f13a293ef447dc7552d7637dab010ba0bd4d69085"
+    },
+    "codex-rs/app-server/src/request_processors/thread_processor.rs": {
+      "lines": 6775,
+      "sha256": "28c5b1da90c6c697fb67a0c7206cb4da3d6424d201123b4a0e935651b9458ab2"
+    },
+    "codex-rs/app-server/src/request_processors/turn_processor.rs": {
+      "lines": 1724,
+      "sha256": "829219be3231b5a4f8bfae26b95dba1d58fae2a93a9d32b0de2d2b22fb01931d"
+    },
+    "codex-rs/backend-client/src/client.rs": {
+      "lines": 1287,
+      "sha256": "e8d543079d838600b1f5523b05abd7436141169def978e2b5fd8d2ccfee2223d"
+    },
+    "codex-rs/cli/Cargo.toml": {
+      "lines": 150,
+      "sha256": "a19f6f4d367c8222b54d575414961a36d1f771f71a11e5f14aa748869d7ebfac"
+    },
+    "codex-rs/cli/src/main.rs": {
+      "lines": 5080,
+      "sha256": "151342d25852d8838e3a5008208ea18d83ed58c402c2b6ca4fb5c0cf00e8ba41"
+    },
+    "codex-rs/codex-api/README.md": {
+      "lines": 30,
+      "sha256": "1e0df78a8afb76ff7fbb82b80412408519fb1da6a83b61b19c4ede28921a063d"
+    },
+    "codex-rs/codex-api/src/endpoint/responses.rs": {
+      "lines": 159,
+      "sha256": "4f2fff3da4ca3ca9fcfa40ada8e98a0229af296094e03febb4d823f32ef932c8"
+    },
+    "codex-rs/codex-home/src/instructions/mod.rs": {
+      "lines": 113,
+      "sha256": "5f900d536d2a085345178e4311ab55c801ce90df50db49f15d05c4525a3b5c2e"
+    },
+    "codex-rs/config/src/config_layer_source.rs": {
+      "lines": 109,
+      "sha256": "6816bf7bd44b1f2799aae30331b77a7e8231ccacdc4cd3d44d6485f9e1118364"
+    },
+    "codex-rs/config/src/loader/mod.rs": {
+      "lines": 2049,
+      "sha256": "308f8e290d55ef1cd2328edb6053c90c20c7bcb893c7168012d67bcde36f4c6c"
+    },
+    "codex-rs/config/src/mcp_types.rs": {
+      "lines": 676,
+      "sha256": "9e4f9013a9a93185378a7ede284d3e9a68a7006c8ec4b2718e418a4867d4bb0b"
+    },
+    "codex-rs/core/README.md": {
+      "lines": 98,
+      "sha256": "90419618b596e4965d9326ff57d81a0a3a406dab586b52d114e6829cafc6da31"
+    },
+    "codex-rs/core/src/client.rs": {
+      "lines": 3119,
+      "sha256": "f019ea748a1692e51b8467a808af2610db493b7e29b1809b16336e7fb976d68a"
+    },
+    "codex-rs/core/src/codex_thread.rs": {
+      "lines": 1270,
+      "sha256": "8bb0072b4c30a3b736f4b898cbae5a949301283d6bb4e6a74e0f5b01781d6daf"
+    },
+    "codex-rs/core/src/session/handlers.rs": {
+      "lines": 820,
+      "sha256": "e24598bddd85d7a3093769ab0a03d0b99257aeef4c1fa3452afd16159dd30d47"
+    },
+    "codex-rs/core/src/session/turn.rs": {
+      "lines": 3415,
+      "sha256": "076bf9522cba976a9b171d3a33403dfb7927330a73fe66afd4e8648f4b1c3629"
+    },
+    "codex-rs/core/src/session/turn_context.rs": {
+      "lines": 1509,
+      "sha256": "e1effb8446a5d27340523fb3e10d8193cc5a8b09e2ed9f30e7a743736ec3966b"
+    },
+    "codex-rs/core/src/session/turn_input.rs": {
+      "lines": 1007,
+      "sha256": "eeeff7f21e0ba0b714e3b50c27cf351f2431aab754f078a362f259a227914cfc"
+    },
+    "codex-rs/core/src/stream_events_utils.rs": {
+      "lines": 591,
+      "sha256": "2f4748da55b2d60d82c591045036b2cbffd159f9b52a778ddb0fe6c6de698988"
+    },
+    "codex-rs/core/src/tasks/regular.rs": {
+      "lines": 126,
+      "sha256": "8ebf86919b855232c8939851193a29157e2cbca2c0ac85fc1f6330327333ca09"
+    },
+    "codex-rs/core/src/thread_manager.rs": {
+      "lines": 2845,
+      "sha256": "3a5be5774ae7f60cd2ac41957fd4d0656efaa499ae7f2a1d6eb139fa704c46d8"
+    },
+    "codex-rs/core/src/tools/handlers/apply_patch.rs": {
+      "lines": 589,
+      "sha256": "5d223af8b6aa967db3131e90225a8df6710e33c6afc49d9a02df750d6e83683f"
+    },
+    "codex-rs/core/src/tools/handlers/unified_exec.rs": {
+      "lines": 128,
+      "sha256": "65e868bed63826d78f37c9ffd1c79f2a133d5356e5908630f1ee49b788723353"
+    },
+    "codex-rs/core/src/tools/handlers/unified_exec/exec_command.rs": {
+      "lines": 548,
+      "sha256": "b7fe8fcdac731e3e95b4465a947ba945d03fc8dcd9ce7a472b2185586314ffdb"
+    },
+    "codex-rs/core/src/tools/handlers/unified_exec/write_stdin.rs": {
+      "lines": 147,
+      "sha256": "c5e53c9279ce7b42746ade4638d8d279d8e88cda4768c9b32fff8a9809165a2e"
+    },
+    "codex-rs/core/src/tools/orchestrator.rs": {
+      "lines": 645,
+      "sha256": "8996f718b818804473c151a8a643747c2b5ab69b05f4630eee143fac7daa0bb5"
+    },
+    "codex-rs/core/src/tools/registry.rs": {
+      "lines": 970,
+      "sha256": "fc37acd056a78779aeeff497d30bcbba759ea55f469ae2c9e7b8f37f3aeb2dae"
+    },
+    "codex-rs/core/src/tools/router.rs": {
+      "lines": 449,
+      "sha256": "7345f8d2c467637e3d646d5510770457db89e4259e0515d5175de363e2c9c79e"
+    },
+    "codex-rs/core/src/tools/runtimes/apply_patch.rs": {
+      "lines": 265,
+      "sha256": "a4f0a56e78352d89434b2056aea84a617571a9bd9d5b785d25fa61205e71bd16"
+    },
+    "codex-rs/core/src/tools/sandboxing.rs": {
+      "lines": 578,
+      "sha256": "1ab6c27e34a93fe3857281e11e388eb3ae4b786819fbe15883ad7e1fb8b5473f"
+    },
+    "codex-rs/core/src/unified_exec/process_manager.rs": {
+      "lines": 1929,
+      "sha256": "7eba3d82a54ad77cb989991ead28b39fe4aa1df24ddea020a0a36adb2d0fca5a"
+    },
+    "codex-rs/exec/src/lib.rs": {
+      "lines": 2448,
+      "sha256": "cb9a1eb6239ece15d0f761fbf64369013469ccf7850408c40b54b9cf0b576eba"
+    },
+    "codex-rs/execpolicy/README.md": {
+      "lines": 97,
+      "sha256": "1e0a4fdbf9d9de143c140bda551213712f7ac227a62c155f33354b761869f66b"
+    },
+    "codex-rs/login/src/auth/storage.rs": {
+      "lines": 658,
+      "sha256": "1cce1de2b553f60fa919ec968863f3417476d66d54ceda37c587c54f3a8dd6ba"
+    },
+    "codex-rs/protocol/src/prompts/base_instructions/default.md": {
+      "lines": 275,
+      "sha256": "ac8ae107a0d72fe3476b430afb161ea4e67da2e446d778aefc44828160559807"
+    },
+    "codex-rs/protocol/src/protocol.rs": {
+      "lines": 6571,
+      "sha256": "9dc4ca7be855139716a72f1d291b5829affc07a19394647d1d9bbb09d4091941"
+    },
+    "codex-rs/rust-toolchain.toml": {
+      "lines": 3,
+      "sha256": "913d7e9d7adcd7abfeb0c4554c39a5a57c3cf84a694bc6a6aeae038a1f6ae33b"
+    },
+    "codex-rs/sandboxing/src/manager.rs": {
+      "lines": 833,
+      "sha256": "8abe2a5f66f8101a669dd0c1571fb7c5edbab9eff2e80c8d13d9064bc5bc175d"
+    },
+    "codex-rs/skills/src/parser.rs": {
+      "lines": 225,
+      "sha256": "f3532df1cc16f4da423b8e5c813269940c90317bcd211b6659cad449fd877e89"
+    },
+    "codex-rs/tui/src/lib.rs": {
+      "lines": 4202,
+      "sha256": "9de45a1b1abd6a4dfab02a0d6626d7f55bd9ec62ba52a271e6276f2bbf7f2775"
+    },
+    "codex-rs/tui/src/startup_orchestration.rs": {
+      "lines": 996,
+      "sha256": "fe3a5988dedc067857c72bb9564c7f5bc5d2b34fce7b9f811b012c9eaedaf931"
+    },
+    "codex-rs/utils/home-dir/src/lib.rs": {
+      "lines": 134,
+      "sha256": "1338259489ade54b01caa1468b6d25fc5a183657fa94cca0add8b91865635ef5"
+    },
+    "codex-rs/utils/string/Cargo.toml": {
+      "lines": 19,
+      "sha256": "3d4f0131321ca76f08410c8a3278d1d2373c8a43118fafa5add9bd8fbb8672ff"
+    },
+    "codex-rs/utils/string/src/lib.rs": {
+      "lines": 169,
+      "sha256": "2c68130a2060f0b941ca356c86ef754903d1cf5d1ab4fa37d7b1d4058a6fbb43"
+    },
+    "docs/config.md": {
+      "lines": 15,
+      "sha256": "745768b4da6cd73e414fc49c5c6ef3d6bf8a0c08289fab23a7dd79776ab31d9d"
+    },
+    "docs/install.md": {
+      "lines": 65,
+      "sha256": "1126ec733921878a40720e139ba7be88e325ecf9fa5b113de2cc636bc71a1f5a"
+    },
+    "justfile": {
+      "lines": 205,
+      "sha256": "9d7a65a494c2b771471c1bfd2edef164a4d22e27015966ad3d4b7af4f3ae2402"
+    },
+    "package.json": {
+      "lines": 39,
+      "sha256": "0d0a78ff2f703abad442de6e99e127076ad40f85912692a82ec21d968944b368"
+    },
+    "sdk/python/docs/getting-started.md": {
+      "lines": 171,
+      "sha256": "a636514fb73fb1e526624d5fcc28d68e119533af97cf31a4fb0d62d995d8368c"
+    },
+    "sdk/python/pyproject.toml": {
+      "lines": 77,
+      "sha256": "da5e5b8eca67f727c49befc1bec71ed72957c1358b3c055433af97a5c0bd4354"
+    },
+    "sdk/python/src/openai_codex/_approval_mode.py": {
+      "lines": 51,
+      "sha256": "9cd7dbf7f20529b97adb9291832ed01645befff58d9642670f1fb8b774bd1b62"
+    },
+    "sdk/python/src/openai_codex/api.py": {
+      "lines": 901,
+      "sha256": "bd9cac51820997fa4d3fa4ac5c24894f45b92da8ba481d49c44cb96dcc9af430"
+    },
+    "sdk/python/src/openai_codex/client.py": {
+      "lines": 924,
+      "sha256": "8452afbd8148ea212c94e8a6727468054b175acb0daf95002c84b66b604d05a6"
+    },
+    "sdk/python/tests/test_public_api_signatures.py": {
+      "lines": 579,
+      "sha256": "c71fae97be240f1b9e93af271315359e4ddeac7a310fd94850b407b4d7e633b5"
+    },
+    "sdk/typescript/README.md": {
+      "lines": 160,
+      "sha256": "bc454b26a6920efb1826912be6b6ba96348ab39d9f4e70078465deb586dbbfe7"
+    },
+    "sdk/typescript/package.json": {
+      "lines": 68,
+      "sha256": "bc908b2ca2823217d19e56fc472b895b18a451a57411046b131992b34977b02c"
+    },
+    "sdk/typescript/src/exec.ts": {
+      "lines": 506,
+      "sha256": "0df2fe1ccd90e05b2f2fb0cb3e1bd3293e23f36e3bbb369258edc6a63ae8655c"
+    },
+    "sdk/typescript/src/thread.ts": {
+      "lines": 159,
+      "sha256": "21e5c7dc1c3047564750ecea5dfab8a47ab732488c5023e4e22adb01e874483f"
+    },
+    "sdk/typescript/tests/exec.test.ts": {
+      "lines": 365,
+      "sha256": "b8fdebb70f761b729093555d09328879cf9400db53aa8c47156f21fb7f44f594"
+    },
+    "sdk/typescript/tsup.config.ts": {
+      "lines": 12,
+      "sha256": "dc2fe9756f54c9deaacfbd6c27f5f0ddf0aef3ba9de0d94506b5d0688551cfc3"
+    }
+  }
+}
